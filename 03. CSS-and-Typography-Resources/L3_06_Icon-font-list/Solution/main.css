@@ -1,0 +1,14 @@
+@import url('/font-awesome-4.6.3/css/font-awesome.min.css');
+
+ul {
+    margin-left: 60px;
+    list-style-type: none;
+}
+
+ul li i {
+    margin-right: 7px;
+}
+
+ul:first-child {
+    margin-top: 90px;
+}

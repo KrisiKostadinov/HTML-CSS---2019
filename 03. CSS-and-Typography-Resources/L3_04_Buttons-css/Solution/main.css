@@ -1,0 +1,36 @@
+@import url('/font-awesome-4.6.3/css/font-awesome.min.css');
+
+section {
+    width: 50%;
+    background: #ccc;
+    padding: 60px;
+}
+
+section .row .button,
+section .row a {
+    border-radius: 20px;
+    border: 2px solid rgb(51, 51, 51);
+    padding: 10px 20px;
+    cursor: pointer;
+    outline: none;
+    margin-right: 20px;
+}
+
+.hover {
+    color: rgb(51, 51, 51);
+}
+
+.hover:hover {
+    color: rgb(0, 102, 0);
+    border: 2px solid rgb(0, 102, 0);
+}
+
+.fill {
+    background: rgb(51, 51, 51);
+    color: rgb(251, 251, 251);
+}
+
+.fill:hover {
+    background: rgb(0, 102, 0);
+    border: 2px solid rgb(0, 102, 0);
+}
